@@ -1,4 +1,3 @@
-
 import "./registerCard.css";
 
 export default function RegisterCard() {

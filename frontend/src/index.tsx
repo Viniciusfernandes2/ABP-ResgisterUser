@@ -3,6 +3,7 @@ import App from './App';
 import LoginPage from './pages/loginPage';
 import Header from './components/Header/header';
 import RegisterUser from './pages/RegisterUser';
+import AdmPanel from './pages/admPanel';
 
 
 const root = ReactDOM.createRoot(
@@ -11,6 +12,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
     <div>
-      <RegisterUser />
+      <Header/>
+      <AdmPanel/>
     </div>
 );
