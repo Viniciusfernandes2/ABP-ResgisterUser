@@ -2,6 +2,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import LoginPage from './pages/loginPage';
 import Header from './components/Header/header';
+import RegisterUser from './pages/RegisterUser';
 
 
 const root = ReactDOM.createRoot(
@@ -10,6 +11,6 @@ const root = ReactDOM.createRoot(
 
 root.render(
     <div>
-      <LoginPage />
+      <RegisterUser />
     </div>
 );

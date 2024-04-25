@@ -1,6 +1,40 @@
-.card1{
+.card{
     display: flex;
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
+    width: 1091px;
+    padding:12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gapPainelUi, 24px);
+    flex: 1 0 0;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
 }
+input{
+    width: 99%;
+    height: 45px;
+    border-radius:5px;
+    border-color: #a1a1a1;
+
+}
+
+
+ .but{
+    color: white;
+    background-color: #fc6804;
+    width: 50% ; 
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    
+}
+ .but2{
+    background-color: #22BB55;
+    color: white;
+    border-radius: 5px;
+    margin-left:90%;
+    width: 100px;
+    height: 45px;
+    margin-bottom: 30px;
+ }
