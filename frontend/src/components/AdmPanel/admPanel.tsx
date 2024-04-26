@@ -1,16 +1,18 @@
 import "../AdmPanel/admPanel.css";
-// @tsignore
+//@ts-ignore
 import map from "../../images/AdmPanel/map.png";
 
 export default function AdminPanel() {
-
-    return (
+  return (
+    <div className="body">
+      <img className="img-boxmap" src={map} />
+      <div className="cardcontainer">
         <div className="card1">
-            <img className="img-box" src={map} />
-            <h2> Lorem ipsum, dolor sit amet c</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident blanditiis, nihil, mollitia deleniti asperiores i
-            </p>
+          <h2> Lorem ipsum, dolor sit amet c</h2>
+          <p>TESTE DE TEXTO</p>
         </div>
-    );
+        <div className="card2"></div>
+      </div>
+    </div>
+  );
 }
