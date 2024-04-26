@@ -13,6 +13,6 @@ const root = ReactDOM.createRoot(
 root.render(
     <div>
       <Header/>
-      <RegisterUser/>
+      <AdmPanel/>
     </div>
 );
